@@ -1,0 +1,54 @@
+<! DOCTYPE html>
+<html>
+<head>
+ <meta charset="utf-8">
+ <title>My first page in javaScript</title>
+   </head>
+ <body>
+ 
+  <p id="text1">1. Var ligger Kristianstad?</p>
+   <p id= "noShow"></p>
+     <button id="newButton">Rätt svar</button>
+     	 
+   
+   <script>
+        document.getElementById("newButton").onclick = function ()  {
+		   document.getElementById("noShow").innerHTML = "Skåne";
+		
+		}
+		</script>
+		
+	<p id = "text2">2. Var ligger Karlskrona?</>
+	  <p id="noShow2"></p>
+	   <button id="btn2">Rätt svar</button>
+	<script>
+	     document.getElementById("btn2").onclick = function() {
+		   document.getElementById("noShow2").innerHTML ="Blekinge";
+	 }	   
+	   </script>
+	   
+	 <p id="text3">3. Var ligger Kiruna</p>
+	   <p id ="noShow3"></p>
+	    <button id ="btn3">Rätt svar</button>
+	 <script>
+	   document.getElementById("btn3").onclick = function(){
+	     document.getElementById("noShow3").innerHTML ="norra Sverige";
+	 }
+	  </script>
+	  
+	  <p id= "text4">4. Var ligger Stockholm?</p>
+	    <p id= "noShow4"></p>
+	      <button id= "btn4">Rätt svar</p>
+	<script>
+	   document.getElementById("btn4").onclick = function () {
+	     document.getElementById("noShow4").innerHTML="Sverige";
+	   }
+   
+   </script>
+
+
+
+
+  </body>
+
+</html>
